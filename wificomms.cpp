@@ -24,4 +24,4 @@ void wificomms::read(int& roll, int& pitch, int& throttle)
     pitch = int(packet[1]);
     throttle = int(packet[2]) * 24;
   }
-}
+};

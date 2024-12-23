@@ -14,6 +14,6 @@ class wificomms
   private:
 
   WiFiUDP UDP;
-}
+};
 
 #endif // wificomms_h
