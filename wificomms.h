@@ -9,7 +9,7 @@ class wificomms
   public:
     void connect();
     void listen();
-    void read(int& roll, int& pitch, int& throttle);
+    void read(int& pitch, int& roll, int& yaw, int& throttle);
 
   private:
 
